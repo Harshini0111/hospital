@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style> 
+.body1 {
+  background-image: url("black.jpg");
+  background-repeat: no-repeat;
+
+}
+
+.header {
+  padding: 60px;
+  text-align: center;
+  background-color:white
+  color: black;
+  font-size: 70px;
+}
+.header p{
+margin:25px;
+border: 5px black; 
+
+}
+
+
+.column {
+  float: left;
+  padding: 1px;
+}
+.column.side {
+  width: 33.33%;
+}
+.column.middle {
+  width: 33.33%;
+}
+.row1{
+background-color: white;
+border: 0px solid lightblue;
+margin: 0px;
+}
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  text-align: right;
+  padding: 4px;
+  background-color: black;
+  color: white;
+  font-size:30px;
+}
+</style>
+<div class="header">
+<p><strong><u>GLOBAL HEALTH HOSPITALS</u></strong></p>
+</div>
+
+<body bgcolor="D0D3D4">
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+	   <li><a href="#A">ABOUT US</a></li>
+      <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">DETAILS<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a href="branches.html">BRANCHES</a></li>
+          <li><a href="doctor.html">DOCTOR DETAILS</a></li>
+        </ul>
+      </li>
+      <li><a href="appointment.html">APPOINTMENT</a></li>
+	  <li><a href="#C">CONTACT</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="body1">
+<div class="container-fluid">
+ <div class="row">
+  <div class="col-sm-5">
+  <h1 class="text-danger">ORGAN DONATION</h1>
+  <p style="color:white">We encourage you to donate and help other lives</p>
+  </div>
+  <div class="col-sm-offset-2 col-sm-5">
+  <h1 class="text-danger">Value</h1>
+  <p style="color:white">We value your life and put our total effort to protect you</p>
+  </div>
+ </div>
+ <div class="row">
+   
+  <div class="col-sm-offset-3 col-sm-4">
+  <h1 class="text-danger"  id="A">OPT A HEALTHY LIFE </h1>
+  </div>
+  <br><br><br><br>
+  <div class="col-sm-8">
+  <center><img class="img-responsive" src="hospital.jpg" alt="Chania" width="460" height="345"></center>
+  </div>
+  
+ </div>
+ 
+</div>
+<div class="row1">
+  <div class="column side">
+    <h2 id="C">CONTACT</h2>
+	<p style="text-align:left;font-size:100%;color:blue;font-family:courier;">
+ 011-66999200
+ <br>
+ <p style="text-align:left;font-size:100%;color:blue;font-family:courier;">
+ www.globalhealthhospitals.com</p>
+ <br>
+</div>
+<div class="column middle">
+    <h2>ADDRESS</h2>
+	<p style="text-align:left;font-size:100%;color:blue;font-family:courier;">
+Global health hospitals,<br> Richmond Road,<br> Banglore,<br> India</p>
+   </div>
+  
+  
+</div>
+</div>
+<footer>
+  <p>Designed by 18ITR037 Harshini</p>
+</footer> 
+</body>
+</html>
